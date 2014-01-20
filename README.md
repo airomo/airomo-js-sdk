@@ -98,7 +98,7 @@ airomo.setEnv(envOptions)               // use this method to preset app options
 `
 
 
-
+NOTE :  Airomo apiKey and clientId can be generated from http://developer.airomo.com/apps/
 
 
 
