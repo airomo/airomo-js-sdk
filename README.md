@@ -17,26 +17,25 @@ To perform simple search you only need to call airomo.search() functions with pr
 
 Example: 
 
-`var options = {
-    query: "cars",
-    clientId:
-    appKey: 
-};
+    var options = {
+        query: "cars",
+        clientId:
+        appKey: 
+    };
+    
+    airomo.search(options, function(error, data) {
+        if(!error) {
+            console.log(data);
+        }
+    });
 
-airomo.search(options, function(error, data) {
-    if(!error) {
-        console.log(data);
-    }
-});
-`
 
-
-airomo Object description: 
+## airomo Object description: 
 
 
 `airomo` object has two methods: search and setEnv
 
-`airomo.search(options, callback) 
+`airomo.search(options, callback)` 
        
     options = {                     //Object of options.
                 
@@ -91,11 +90,11 @@ airomo Object description:
 airomo.setEnv(envOptions)               // use this method to preset app options, 
                                         // like clientId and apiKey for every further api calls
 
-            envOptions <Object> {
-                clientId: <String>          // valid app clientId
-                apiKey:   <String>          // valid app api key
-            }
-`
+    envOptions <Object> {
+            clientId: <String>          // valid app clientId
+            apiKey:   <String>          // valid app api key
+    }
+
 
 
 NOTE :  Airomo apiKey and clientId can be generated from http://developer.airomo.com/apps/
@@ -105,49 +104,49 @@ NOTE :  Airomo apiKey and clientId can be generated from http://developer.airomo
 ## App categories list
 
 
-id      name
-
-1       Books & Reference
-2       Business
-3       Education
-4       Entertainment
-5       Finance
-6       Games
-31      Action
-32      Adventure
-33      Arcade
-34      Board
-35      Card
-36      Casino
-37      Dice
-38      Educational
-39      Family
-40      Kids
-41      Music
-42      Puzzle
-43      Racing
-44      Role Playing
-45      Simulation
-46      Sports
-47      Strategy
-48      Trivia
-49      Word
-50      Misc
-7       Health & Fitness
-8       Lifestyle
-9       Media & Video
-10      Medical
-11      Music & Audio
-12      Navigation
-13      News & Magazines
-14      Photography
-15      Productivity
-17      Social
-16      Shopping
-19      Travel & Local
-18      Sports
-21      Weather
-20      Utilities
-23      Personalization
+    id      name
+    
+    1       Books & Reference
+    2       Business
+    3       Education
+    4       Entertainment
+    5       Finance
+    6       Games
+    31      Action
+    32      Adventure
+    33      Arcade
+    34      Board
+    35      Card
+    36      Casino
+    37      Dice
+    38      Educational
+    39      Family
+    40      Kids
+    41      Music
+    42      Puzzle
+    43      Racing
+    44      Role Playing
+    45      Simulation
+    46      Sports
+    47      Strategy
+    48      Trivia
+    49      Word
+    50      Misc
+    7       Health & Fitness
+    8       Lifestyle
+    9       Media & Video
+    10      Medical
+    11      Music & Audio
+    12      Navigation
+    13      News & Magazines
+    14      Photography
+    15      Productivity
+    17      Social
+    16      Shopping
+    19      Travel & Local
+    18      Sports
+    21      Weather
+    20      Utilities
+    23      Personalization
 
 
