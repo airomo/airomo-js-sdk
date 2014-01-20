@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Airomo Search SDK App</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/css/bootstrap.min.css">
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://netdna.bootstrapcdn.com/bootstrap/3.0.2/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="http://static.airomo.com/js-sdk/airomo.min.js"></script>
+    <script>
+      var a2ClientId = 1132368938;
+      var a2ApiKey = 'bnu2ck7gtuh9xyiwr563ithxnfi72i05';
+    </script>
+    <script type="text/javascript" src="app.js"></script>
+  </head>
+  <body>
+    <div class="navbar" id="header">
+      <header class="container">
+        <div class="row form-group header-row">
+          <div class="col-lg-2 col-md-2 col-sm-2 col-xs-2 logo-holder">
+              <a href="http://www.airomo.com/" target="_blank">
+                  <div class="logo-border"></div>
+              </a>
+          </div>
+          <div class="col-lg-8 col-md-8 col-sm-8 col-xs-7 input-group-lg" style="padding-top: 10px;">
+            <span id="clear-search" class="glyphicon glyphicon-remove" style="display:none;"></span>  
+            <input type="text" id="query-input" class="form-control" onkeyup="keyListener(event)" spellcheck="true" />
+          </div>
+          <div class="col-lg-1 col-md-1 col-sm-1 col-xs-1" style="padding-top: 10px;">
+            <button type="submit" onclick="doSearch(null)" class="btn btn-default btn-lg button-s" style="width: 91px; height: 45px;">
+              <span class="search-text-icon">Go</span>
+              <img class="search-button-loader" style="display:none;" src="images/loader.gif" />
+            </button>
+          </div>
+        </div>
+      </header>
+    </div>
+    <div id="total-apps" class="container results-holder" style="display:none;">
+      <div class="row" style="margin-bottom: 2px;">
+        <div class="col-lg-12"><span id="total-res"></span> apps found!</div>
+        <div class="powered-by">Powered by airomo</div>
+      </div>
+    </div>  
+    <div id="main-holder" class="container main-container" style="">
+      <div class="col-lg-6 col-md-6 hidden-xs hidden-sm left-panel" id="left"></div> 
+      <div class="col-lg-6 col-md-6 hidden-xs hidden-sm right-panel" id="right"></div>
+      <div id="single" class="col-lg-12 visible-xs visible-sm hidden-lg hidden-md single-panel"></div>
+    </div>
+    <div id="footer" class="navbar results-footer">
+        <div class="container" style="margin-top: 2px; padding: 10px; position: relative;">
+          <span class="airomo-link"><a href="http://www.airomo.com/">www.airomo.com</a></span>  
+          <div style="display:none;" id="more-res" class="next-page-holder" onclick="nextPage()">
+            <span class="search-text-icon">More results</span>
+            <img class="search-button-loader" style="display:none; margin: 0 auto;" src="images/loader.gif" />
+          </div>
+          <div id="go-up" onclick="scrollTopZ()">Go Up</div>
+        </div>
+    </div>  
+  </body>
+</html>   
