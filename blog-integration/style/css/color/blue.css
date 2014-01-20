@@ -1,0 +1,171 @@
+a {
+  color: #7ca1be;
+}
+a:hover,
+a:focus {
+  color: #5f798e;
+}
+.menu ul li a:hover,
+.menu ul li a.selected {
+    color: #5f798e
+}
+.btn-link {
+  color: #7ca1be;
+}
+.btn-link:hover,
+.btn-link:focus {
+  color: #7ca1be;
+}
+.nav-list > .active > a,
+.nav-list > .active > a:hover,
+.nav-list > .active > a:focus {
+  background-color: #7ca1be;
+}
+.dropdown-menu > li > a {
+  color: #a7bed0;
+}
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus,
+.dropdown-submenu:hover > a,
+.dropdown-submenu:focus > a {
+  color: #a7bed0;
+}
+.dropdown-submenu:hover > a:after {
+  border-left-color: #a7bed0;
+}
+.top-space,
+header {
+	background-color: #a7bed0;
+}
+.menu ul li ul li a {
+    color: #a7bed0;
+}
+.menu ul li.active ul li a {
+    color: #a7bed0
+}
+.menu ul li ul li a:hover,
+.menu ul li ul li a.selected {
+    color: #a7bed0;
+}
+.selectnav {
+    color: #a7bed0;
+}
+.btn,
+.nav-tabs > li > a {
+    background: #a7bed0;
+}
+.btn:hover,
+.btn:focus,
+.btn:active,
+.btn.active,
+.btn.disabled,
+.btn[disabled],
+.nav > li > a:hover,
+.nav > li > a:focus,
+.nav-tabs > .active > a,
+.nav-tabs > .active > a:hover,
+.nav-tabs > .active > a:focus {
+    color: #a7bed0;
+}
+.btn-group.open .btn.dropdown-toggle {
+    color: #a7bed0;
+}
+.dropdown-menu li a {
+    color: #a7bed0;
+}
+.tp-leftarrow.default,
+.tp-rightarrow.default {
+    background: #a7bed0;
+}
+.tp-bullets.simplebullets.round .bullet {
+    background: #a7bed0;
+}
+.pagination ul > li > a,
+.pagination ul > li > span {
+    background-color: #a7bed0;
+}
+.pagination ul > li > a:hover,
+.pagination ul > li > a:focus,
+.pagination ul > .active > a,
+.pagination ul > .active > span {
+    color: #a7bed0;
+}
+.progress.plain .bar {
+    background: #a7bed0;
+}
+blockquote small {
+    color: #7ca1be;
+}
+.lite {
+    color: #7ca1be;
+    border-color: #7ca1be;
+}
+.item-details span {
+    color: #7ca1be;
+}
+.item-details a:hover {
+    color: #7ca1be
+}
+.tparrows:hover {
+    color: #7ca1be;
+    background: #4e4e4e;
+}
+.post .post-title a:hover {
+    color: #7ca1be
+}
+#comments .info h2 a:hover {
+    color: #7ca1be
+}
+#comments a.reply-link:hover {
+    color: #7ca1be
+}
+.sidebox a:hover {
+    color: #7ca1be
+}
+.progress-list li em {
+    color: #7ca1be;
+}
+.items li a .overlay,
+.post .overlay a .more,
+.post-list .overlay a .more {
+    background-color: rgba(167,190,208, 0.92);
+}
+select,
+textarea,
+input[type="text"],
+input[type="password"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="date"],
+input[type="month"],
+input[type="time"],
+input[type="week"],
+input[type="number"],
+input[type="email"],
+input[type="url"],
+input[type="search"],
+input[type="tel"],
+input[type="color"],
+.uneditable-input {
+    background: #fef5e2;
+    background: rgba(167,190,208,0.30);
+}
+textarea:focus,
+input[type="text"]:focus,
+input[type="password"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="date"]:focus,
+input[type="month"]:focus,
+input[type="time"]:focus,
+input[type="week"]:focus,
+input[type="number"]:focus,
+input[type="email"]:focus,
+input[type="url"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="color"]:focus,
+.uneditable-input:focus {
+    background: #feefd0;
+    background: rgba(167,190,208,0.45);
+}
