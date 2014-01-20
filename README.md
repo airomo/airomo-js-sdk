@@ -149,4 +149,7 @@ NOTE :  Airomo apiKey and clientId can be generated from http://developer.airomo
     20      Utilities
     23      Personalization
 
+## Sample App using the Airomo SDK
 
+Source code for the sample app using the SDK is at  ./sample-app
+Working sample app  : http://airomo.github.io/airomo-js-sdk/blog-integration/
